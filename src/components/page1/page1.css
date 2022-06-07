@@ -38,6 +38,7 @@
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     color: #fff;
+    cursor: pointer;
 }
 
 .container1 button:hover{
@@ -45,3 +46,4 @@
     color: black;
     border: 1px solid;
 }
+

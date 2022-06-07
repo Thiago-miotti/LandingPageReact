@@ -1,7 +1,8 @@
 import React from "react";
 import "./page4.css";
+import Modal from "../UI/modal";
 
-function page4() {
+function page4(props) {
   return (
     <div className="container4">
       <div className="child-container">
@@ -15,6 +16,7 @@ function page4() {
           <br />
           aspernatur sed illo.
         </p>
+        <button className="button4"><Modal data = {props.lista[3]}/></button>  
       </div>
     </div>
   );

@@ -1,8 +1,9 @@
 import React from "react";
 import "./page2.css";
 import ME from "../../Assets/page2-background.jpg";
+import Modal from "../UI/modal";
 
-function page2() {
+function page2(props) {
   return (
     <div className="container2">
       <h1>
@@ -16,6 +17,7 @@ function page2() {
         aspernatur sed illo.
       </p>
       <button>VIEW MORE</button>
+      <Modal data = {props.lista[1]}/>
     </div>
   );
 }
